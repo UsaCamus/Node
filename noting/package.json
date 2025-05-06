@@ -1,0 +1,24 @@
+{
+  "name": "noting",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "bulid": "babel src --out-dir dist",
+    "start": "node dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.13.2",
+    "node-modules": "^0.0.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.27.0",
+    "@babel/core": "^7.26.10",
+    "@babel/node": "^7.26.0",
+    "@babel/preset-env": "^7.26.9"
+  }
+}
